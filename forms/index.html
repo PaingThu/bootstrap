@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boostrap - Forms</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/css/bootstrap.min.css">
+</head>
+<body>
+    <h1>Forms</h1>
+    <form>
+        <div class="mb-3">
+            <label for="name">Name</label>
+            <input type="text" id="name" class="form-control">
+        </div>
+
+        <div class="mb-3">
+            <label for="address">Address</label>
+            <textarea id="address" class="form-control"></textarea>
+            <div class="form-text">Enter your full address</div>
+        </div>
+
+        <div class="mb-3">
+            <label for="gender">Gender</label>
+            <select id="gender" class="form-select">
+                <option>Male</option>
+                <option>Female</option>
+            </select>
+        </div>
+
+        <button class="btn btn-primary">Submit Form</button>
+    </form>
+    <hr>
+    <h3>Input Group</h3>
+    <form>
+        <div class="input-group mb-3">
+            <input type="text" class="form-control">
+            <button class="btn btn-secondary">Search</button>
+        </div>
+        
+        <label for="email">Enter Your Gmail Address</label>
+        <div class="input-group mb-3">
+            <input type="text" id="email" class="form-control">
+            <span class="input-group-text">@gmail.com</span>
+        </div>
+
+        <label for="price">Enter Price</label>
+        <div class="input-group mb-3">
+            <span class="input-group-text">$</span>
+            <input type="text" id="price" class="form-control">
+        </div>
+
+        <label for="test">Testing</label>
+        <div class="input-group mb-3">
+            <span class="input-group-text">Element1</span>
+            <input type="text" id="test" class="form-control">
+            <span class="input-group-text">Element2</span>
+        </div>
+    </form>
+
+</body>
+</html>
