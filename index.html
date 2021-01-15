@@ -7,39 +7,114 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/css/bootstrap.min.css">
 </head>
 <body>
-    <div class="card">
-        <div class="card-header text-center">
-            <strong>ဆရာအိမောင်ရေးသားထားသော bootstrap လို-တို-ရှင်း စာအုပ်အားလေ့လာခြင်း</strong>
-        </div>
-        <div class="card-body text-center">
-            <img id="book-cover" class="mb-2" src="./img/book-cover.png" alt="Bootstrap လို-တို-ရှင်း" width="200px">
-            <label for="book-cover">Bootstrap လို-တို-ရှင်း <br> အိမောင် <br> Fairway <br> <a href="https://eimaung.com/bootstrap/">https://eimaung.com/bootstrap/</a></label>
-            
-            <p>
-                ရှေးဦးစွာ ဆရာအိမောင်ကို ရိုသေလေးစားစွာဖြင့် ကျေးဇူးတင်ကြောင်းပြောပါရစေခမျာ 🙏🏻🙏🏻🙏🏻
-                <br>
-                ဆရာရဲ့စာအုပ်ကို ဖတ်တဲ့အခါ ဖတ်နေရင်းနဲ့ ဆရာ့ရဲ့စေတနာတွေကို မြင်နေရပါတယ် ဆရာ 
-                <br>
-                <br>
-                စာအုပ်ဖတ်နေရင်းနဲ့ လက်တွေ့လိုက်လုပ်ဖြစ်တာလေးကို github ပေါ်မှာတင်ထားပြီးတော့ github pageလေးပါ လုပ်ထားလိုက်တယ်
-            </p>
-            <ul class="nav nav-pills ">
-                <li class="nav-item">
-                    <a href="./css-component/alert/" class="nav-link">အခန်း(၄) - CSS Component</a>
-                </li>
-                <li class="nav-item">
-                    <a href="./js-component/dropdowns/" class="nav-link">အခန်း(၅) Javascript Component</a>
-                </li>
-                
-            </ul>
-        </div>
-        <div class="card-footer fixed-bottom text-center text-muted">
-            &copy; Copyright 2021 - Maw Paing Thu
-        </div>
-        
 
+    
+    <main class="bg-dark pb-5">
+        <nav class="navbar navbar-expand-sm sticky-top navbar-dark bg-dark">
+            <div class="container-fluid">
+                <a href="#" class="navbar-brand">Bootstrap လို-တို-ရှင်း</a>
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a href="" class="nav-link active">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="./css-component/alert/" class="nav-link">CSS Components</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="./js-component/dropdowns/" class="nav-link">JS Components</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="./layout/" class="nav-link">Layout</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="./utility-classes/" class="nav-link">Utility Classes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="./icons/" class="nav-link">Icons</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="./admin-dashboard/" class="nav-link">Admin Dashboard</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="./js-component/dropdowns/" class="nav-link">Thank you!</a>
+                    </li>
+
+                </ul>
+            </div>
+        </nav>
+        <div class="container">
+            
+            <div class="bg-dark pt-3 text-center text-light">
+                <h3></h3>
+                <img id="book-cover" class="mb-2" src="./img/bootstrap-book.png" alt="Bootstrap လို-တို-ရှင်း" width="200px"><br>
+                <label for="book-cover">အိမောင် <br> Fairway <br> <a href="https://eimaung.com/bootstrap/">https://eimaung.com/bootstrap/</a></label>
+                <h4 class="text-center mt-3"><strong>ဆရာအိမောင်ရေးသားထားသော bootstrap လို-တို-ရှင်း စာအုပ်အားလေ့လာခြင်း</strong></h4>
+            </div>
+        </div>
+    </main>
+
+    <section class="container py-5">
+        <div class="row g-5 text-dark">
+            <div class="col-12 col-md-6 col-lg-3 col-xl-3">
+                <div class="border border-secondary text-center p-3"">   
+                    <strong class="text-dark">Bootstrap</strong><br>
+                    <h5 class="mb-2">CSS Components</h5> 
+                    <hr>
+                    <p class="text-muted">စာအုပ်ထဲတွင် ဖော်ပြထားသော <br>အသုံးများတဲ့ CSS Componentsများ</p>
+                    <a href="./css-component/alert/" class="btn btn-primary"><small>နမူနာများကိုကြည့်ရန် နှိပ်ပါ</small></a>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3 col-xl-3">
+                <div class="border border-secondary text-center p-3">   
+                    <strong class="text-dark">Bootstrap</strong><br>
+                    <h5 class="mb-2">JS Components</h5>
+                    <hr> 
+                    <p class="text-muted">စာအုပ်ထဲတွင် ဖော်ပြထားသော <br>အသုံးများတဲ့ JS Componentsများ</p>
+                    <a href="./js-component/dropdowns/" class="btn btn-primary"><small>နမူနာများကိုကြည့်ရန် နှိပ်ပါ</small></a>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3 col-xl-3">
+                <div class="border border-secondary text-center p-3">   
+                    <strong class="text-dark">Bootstrap</strong><br>
+                    <h5 class="mb-2">Layout</h5>
+                    <hr> 
+                    <p class="text-muted">စာအုပ်ထဲတွင် ဖော်ပြထားသော <br>Layout နမူနာများ</p>
+                    <a href="./js-component/dropdowns/" class="btn btn-primary"><small>နမူနာများကိုကြည့်ရန် နှိပ်ပါ</small></a>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3 col-xl-3">
+                <div class="border border-secondary text-center p-3">   
+                    <strong class="text-dark">Bootstrap</strong><br>
+                    <h5 class="mb-၂">Utility Classes</h5>
+                    <hr> 
+                    <p class="text-muted">စာအုပ်ထဲတွင် ဖော်ပြထားသော <br>Utility Classes နမူနာများ</p>
+                    <a href="./js-component/dropdowns/" class="btn btn-primary"><small>နမူနာများကိုကြည့်ရန် နှိပ်ပါ</small></a>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3 col-xl-3">
+                <div class="border border-secondary text-center p-3">   
+                    <strong class="text-dark">Bootstrap</strong><br>
+                    <h5 class="mb-2">Icons</h5>
+                    <hr> 
+                    <p class="text-muted">စာအုပ်ထဲတွင် ဖော်ပြထားသော <br>Icon နမူနာများ</p>
+                    <a href="./js-component/dropdowns/" class="btn btn-primary"><small>နမူနာများကိုကြည့်ရန် နှိပ်ပါ</small></a>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3 col-xl-3">
+                <div class="border border-secondary text-center p-3">   
+                    <strong class="text-dark">Bootstrap</strong><br>
+                    <h5 class="mb-2">Admin Dashboard</h5>
+                    <hr> 
+                    <p class="text-muted">စာအုပ်ထဲတွင် ဖန်တီးပြသထားသော <br>Admin Dashboard</p>
+                    <a href="./js-component/dropdowns/" class="btn btn-primary"><small>ကြည့်ရန် နှိပ်ပါ</small></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <div class="card-footer text-center text-muted">
+       Maw Paing Thu @ <a href="https://github.com/PaingThu" class="text-decoration-none text-muted">https://github.com/PaingThu</a> 
     </div>
-   
     
     
     
