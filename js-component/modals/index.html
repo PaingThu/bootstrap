@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap - JS Components</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/css/bootstrap.min.css">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+
+    <ul class="nav nav-tabs">
+        <li class="nav-item">
+            <a href="../../" class="nav-link">Home</a>
+        </li>
+        <li class="nav-item">
+            <a href="../dropdowns/" class="nav-link">Dropdowns</a>
+        </li>
+        <li class="nav-item">
+            <a href="../collapses/" class="nav-link">Collapses</a>
+        </li>
+        <li class="nav-item">
+            <a href="../modals/" class="nav-link active">Modals</a>
+        </li>
+        
+    </ul>
+    
+    <h1>Modals</h1>
+
+    <button class="btn btn-primary" data-toggle="modal" data-target="#feedback">
+        Show Modal
+    </button>
+    <div class="modal" id="feedback">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Feedback</h5>
+                    <button class="btn-close" data-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <textarea name="" id="" cols="30" rows="10" class="form-control"></textarea>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-secondary">Send Feedback</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
