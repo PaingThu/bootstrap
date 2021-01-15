@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap - JS Components</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/css/bootstrap.min.css">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+
+    <ul class="nav nav-tabs">
+        <li class="nav-item">
+            <a href="../../" class="nav-link">Home</a>
+        </li>
+        <li class="nav-item">
+            <a href="../dropdowns/" class="nav-link">Dropdowns</a>
+        </li>
+        <li class="nav-item">
+            <a href="../collapses/" class="nav-link">Collapses</a>
+        </li>
+        <li class="nav-item">
+            <a href="../modals/" class="nav-link">Modals</a>
+        </li>
+        <li class="nav-item">
+            <a href="../carousel/" class="nav-link active">Carousel</a>
+        </li>
+        
+    </ul>
+
+    <h1>Carousel</h1>
+
+    <h6>Sample 1</h6>
+    <div class="carousel slide mb-3" data-ride="carousel">
+
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="bg-primary" style="height: 200px;"></div>
+            </div>
+            <div class="carousel-item">
+                <div class="bg-success" style="height: 200px;"></div>
+            </div>
+            <div class="carousel-item">
+                <div class="bg-warning" style="height: 200px;"></div>
+            </div>
+        </div>
+
+    </div>
+
+    <h6>Sample 2</h6>
+    <div class="carousel slide mb-3" data-ride="carousel" id="second-slide">
+
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="bg-primary" style="height: 200px;"></div>
+            </div>
+            <div class="carousel-item">
+                <div class="bg-success" style="height: 200px;"></div>
+            </div>
+            <div class="carousel-item">
+                <div class="bg-warning" style="height: 200px;"></div>
+            </div>
+        </div>
+
+        <a href="#second-slide" class="carousel-control-prev" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a href="#second-slide" class="carousel-control-next" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </a>
+
+    </div>
+
+    <h6>Sample 3</h6>
+    <div class="carousel slide mb-3" data-ride="carousel" id="third">
+        <ol class="carousel-indicators">
+            <li class="active" data-target="#third" data-slide-to="0"></li>
+            <li data-target="#third" data-slide-to="1"></li>
+            <li data-target="#third" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="bg-primary" style="height: 200px;"></div>
+            </div>
+            <div class="carousel-item">
+                <div class="bg-success" style="height: 200px;"></div>
+            </div>
+            <div class="carousel-item">
+                <div class="bg-warning" style="height: 200px;"></div>
+            </div>
+        </div>
+        <a href="#third" class="carousel-control-prev" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a href="#third" class="carousel-control-next" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </a>
+    </div>
+</body>
+</html>
