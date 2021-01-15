@@ -7,88 +7,124 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/css/bootstrap.min.css">
 </head>
 <body>
-    <ul class="nav nav-tabs">
-        <li class="nav-item">
-            <a href="../../" class="nav-link">Home</a>
-        </li>
-        <li class="nav-item">
-            <a href="../alert/" class="nav-link">Alert</a>
-        </li>
-        <li class="nav-item">
-            <a href="../list-group/" class="nav-link">List Groups</a>
-        </li>
-        <li class="nav-item">
-            <a href="../table/" class="nav-link">Tables</a>
-        </li>
-        <li class="nav-item">
-            <a href="../forms/" class="nav-link active">Forms</a>
-        </li>
-        <li class="nav-item">
-            <a href="../button-groups-pagination/" class="nav-link">Button Gourps & Pagination</a>
-        </li>
-        <li class="nav-item">
-            <a href="../cards/" class="nav-link">Cards</a>
-        </li>
-        <li class="nav-item">
-            <a href="../navs-and-tabs/" class="nav-link">Navs & Tabs</a>
-        </li>
-        <li class="nav-item">
-            <a href="../badge/" class="nav-link">Badge</a>
-        </li>
-        <li class="nav-item">
-            <a href="../navbar-or-menubar/" class="nav-link">Navbar or Menubar</a>
-        </li>
-    </ul>
-    <h1>Forms</h1>
-    <form>
-        <div class="mb-3">
-            <label for="name">Name</label>
-            <input type="text" id="name" class="form-control">
-        </div>
+    <main class="bg-dark">
+        <nav class="navbar navbar-expand-sm sticky-top navbar-dark bg-dark">
+            <div class="container-fluid">
+                <a href="https://eimaung.com/bootstrap/" class="navbar-brand">Bootstrap လို-တို-ရှင်း - ဆရာအိမောင်(Fairway)</a>
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a href="../../" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="./css-component/alert/" class="nav-link active">CSS Components</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="./js-component/dropdowns/" class="nav-link">JS Components</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="./layout/" class="nav-link">Layout</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="./utility-classes/" class="nav-link">Utility Classes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="./icons/" class="nav-link">Icons</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="./admin-dashboard/" class="nav-link">Admin Dashboard</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="./js-component/dropdowns/" class="nav-link">Thank you!</a>
+                    </li>
 
-        <div class="mb-3">
-            <label for="address">Address</label>
-            <textarea id="address" class="form-control"></textarea>
-            <div class="form-text">Enter your full address</div>
-        </div>
+                </ul>
+            </div>
+        </nav>
+    </main>
+    <section class="container py-5">
+        <h1 class="border-bottom shadow p-3 text-dark">CSS Components</h1>
+        <ul class="nav nav-tabs">
+            <li class="nav-item">
+                <a href="../alert/" class="nav-link">Alert</a>
+            </li>
+            <li class="nav-item">
+                <a href="../list-group/" class="nav-link">List Groups</a>
+            </li>
+            <li class="nav-item">
+                <a href="../table/" class="nav-link">Tables</a>
+            </li>
+            <li class="nav-item">
+                <a href="../forms/" class="nav-link active">Forms</a>
+            </li>
+            <li class="nav-item">
+                <a href="../button-groups-pagination/" class="nav-link">Button Gourps & Pagination</a>
+            </li>
+            <li class="nav-item">
+                <a href="../cards/" class="nav-link">Cards</a>
+            </li>
+            <li class="nav-item">
+                <a href="../navs-and-tabs/" class="nav-link">Navs & Tabs</a>
+            </li>
+            <li class="nav-item">
+                <a href="../badge/" class="nav-link">Badge</a>
+            </li>
+            <li class="nav-item">
+                <a href="../navbar-or-menubar/" class="nav-link">Navbar or Menubar</a>
+            </li>
+        </ul>
+        <h3 class="m-3">Forms</h3>
+    
+        <form>
+            <div class="mb-3">
+                <label for="name">Name</label>
+                <input type="text" id="name" class="form-control">
+            </div>
 
-        <div class="mb-3">
-            <label for="gender">Gender</label>
-            <select id="gender" class="form-select">
-                <option>Male</option>
-                <option>Female</option>
-            </select>
-        </div>
+            <div class="mb-3">
+                <label for="address">Address</label>
+                <textarea id="address" class="form-control"></textarea>
+                <div class="form-text">Enter your full address</div>
+            </div>
 
-        <button class="btn btn-primary">Submit Form</button>
-    </form>
-    <hr>
-    <h3>Input Group</h3>
-    <form>
-        <div class="input-group mb-3">
-            <input type="text" class="form-control">
-            <button class="btn btn-secondary">Search</button>
-        </div>
+            <div class="mb-3">
+                <label for="gender">Gender</label>
+                <select id="gender" class="form-select">
+                    <option>Male</option>
+                    <option>Female</option>
+                </select>
+            </div>
+
+            <button class="btn btn-primary">Submit Form</button>
+        </form>
+        <hr>
+
+        <h6>Input Group</h6>
+        <form>
+            <div class="input-group mb-3">
+                <input type="text" class="form-control">
+                <button class="btn btn-secondary">Search</button>
+            </div>
+            
+            <label for="email">Enter Your Gmail Address</label>
+            <div class="input-group mb-3">
+                <input type="text" id="email" class="form-control">
+                <span class="input-group-text">@gmail.com</span>
+            </div>
+
+            <label for="price">Enter Price</label>
+            <div class="input-group mb-3">
+                <span class="input-group-text">$</span>
+                <input type="text" id="price" class="form-control">
+            </div>
+
+            <label for="test">Testing</label>
+            <div class="input-group mb-3">
+                <span class="input-group-text">Element1</span>
+                <input type="text" id="test" class="form-control">
+                <span class="input-group-text">Element2</span>
+            </div>
+        </form>
         
-        <label for="email">Enter Your Gmail Address</label>
-        <div class="input-group mb-3">
-            <input type="text" id="email" class="form-control">
-            <span class="input-group-text">@gmail.com</span>
-        </div>
-
-        <label for="price">Enter Price</label>
-        <div class="input-group mb-3">
-            <span class="input-group-text">$</span>
-            <input type="text" id="price" class="form-control">
-        </div>
-
-        <label for="test">Testing</label>
-        <div class="input-group mb-3">
-            <span class="input-group-text">Element1</span>
-            <input type="text" id="test" class="form-control">
-            <span class="input-group-text">Element2</span>
-        </div>
-    </form>
-
+    </section>
 </body>
 </html>
