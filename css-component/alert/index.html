@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bootstrap - Alert</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/css/bootstrap.min.css">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/js/bootstrap.bundle.min.js"></script>
 </head>
 <body>
     <main class="bg-dark">
@@ -72,31 +73,146 @@
                 <a href="../navbar-or-menubar/" class="nav-link">Navbar or Menubar</a>
             </li>
         </ul>
+
         <h3 class="m-3">Alert</h3>
-        <div class="alert alert-success">
+
+        <div class="alert alert-success" data-target="#alert-success" data-toggle="collapse">
             Successfully completed something.
         </div>
-        <div class="alert alert-primary">
+        <div class="collapse" id="alert-success">
+            <div class="card card-body">
+                <h6 class="card-title">Source Code</h6>
+                <p>
+                    <code>
+                        &lt;div class="alert alert-success"&gt;
+                            Successfully completed something.
+                        &lt;/div&gt;
+                    </code>
+                </p>
+            </div>
+            <hr>
+        </div>
+
+        <div class="alert alert-primary" data-target="#alert-primary" data-toggle="collapse">
             Alert Primary
         </div>
-        <div class="alert alert-secondary">
+        <div class="collapse" id="alert-primary">
+            <div class="card card-body">
+                <h6 class="card-title">Source Code</h6>
+                <p>
+                    <code>
+                        &lt;div class="alert alert-primary"&gt;
+                            Alert Primary
+                        &lt;/div&gt;
+                    </code>
+                </p>
+            </div>
+            <hr>
+        </div>
+
+        <div class="alert alert-secondary" data-target="#alert-secondary" data-toggle="collapse">
             Alert Secondary
         </div>
-        <div class="alert alert-danger">
+        <div class="collapse" id="alert-secondary">
+            <div class="card card-body">
+                <h6 class="card-title">Source Code</h6>
+                <p>
+                    <code>
+                        &lt;div class="alert alert-secondary"&gt;
+                            Alert Secondary
+                        &lt;/div&gt;
+                    </code>
+                </p>
+            </div>
+            <hr>
+        </div>
+
+        <div class="alert alert-danger" data-target="#alert-danger" data-toggle="collapse">
             Alert Danger
         </div>
-        <div class="alert alert-warning">
+        <div class="collapse" id="alert-danger">
+            <div class="card card-body">
+                <h6 class="card-title">Source Code</h6>
+                <p>
+                    <code>
+                        &lt;div class="alert alert-danger"&gt;
+                            Alert danger
+                        &lt;/div&gt;
+                    </code>
+                </p>
+            </div>
+            <hr>
+        </div>
+
+        <div class="alert alert-warning" data-target="#alert-warning" data-toggle="collapse">
             Alert Warning
         </div>
-        <div class="alert alert-info">
+        <div class="collapse" id="alert-warning">
+            <div class="card card-body">
+                <h6 class="card-title">Source Code</h6>
+                <p>
+                    <code>
+                        &lt;div class="alert alert-warning"&gt;
+                            Alert Warning
+                        &lt;/div&gt;
+                    </code>
+                </p>
+            </div>
+            <hr>
+        </div>
+
+        <div class="alert alert-info" data-target="#alert-info" data-toggle="collapse">
             Alert Info
         </div>
-        <div class="alert alert-light">
+        <div class="collapse" id="alert-info">
+            <div class="card card-body">
+                <h6 class="card-title">Source Code</h6>
+                <p>
+                    <code>
+                        &lt;div class="alert alert-info"&gt;
+                            Alert Info
+                        &lt;/div&gt;
+                    </code>
+                </p>
+            </div>
+            <hr>
+        </div>
+
+        <div class="alert alert-light" data-target="#alert-light" data-toggle="collapse">
             Alert Light
         </div>
-        <div class="alert alert-dark">
+        <div class="collapse" id="alert-light">
+            <div class="card card-body">
+                <h6 class="card-title">Source Code</h6>
+                <p>
+                    <code>
+                        &lt;div class="alert alert-light"&gt;
+                            Alert Light
+                        &lt;/div&gt;
+                    </code>
+                </p>
+            </div>
+            <hr>
+        </div>
+
+        <div class="alert alert-dark" data-target="#alert-dark" data-toggle="collapse">
             Alert Dark 
         </div>
+        <div class="collapse" id="alert-dark">
+            <div class="card card-body">
+                <h6 class="card-title">Source Code</h6>
+                <p>
+                    <code>
+                        &lt;div class="alert alert-dark"&gt;
+                            Alert Dark
+                        &lt;/div&gt;
+                    </code>
+                </p>
+            </div>
+            <hr>
+        </div>
+
+        <small class="text-danger"> <span class="spinner-grow mr-3 text-info"></span> You can click on each alert to see source code.</small>
     </section>
     
     
