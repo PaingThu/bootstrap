@@ -3,10 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bootstrap - JS Components</title>
+    <title>Bootstrap - Layouts</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/css/bootstrap.min.css">
-    
+    <style>
+        html,body{
+            height: 100%;
+        }
+    </style>
 </head>
+
 <body>
 
     <main class="bg-dark sticky-top">
@@ -21,10 +26,10 @@
                         <a href="../../css-component/alert/" class="nav-link">CSS Components</a>
                     </li>
                     <li class="nav-item">
-                        <a href="../../js-component/dropdowns/" class="nav-link active">JS Components</a>
+                        <a href="../../js-component/dropdowns/" class="nav-link">JS Components</a>
                     </li>
                     <li class="nav-item">
-                        <a href="../../layout/layout-size/" class="nav-link">Layout</a>
+                        <a href="../../layout/" class="nav-link active">Layout</a>
                     </li>
                     <li class="nav-item">
                         <a href="../../utility-classes/" class="nav-link">Utility Classes</a>
@@ -44,40 +49,33 @@
         </nav>
     </main>
     <section class="container py-5">
-        <h1 class="border-bottom shadow p-3 text-dark">Javascript Components</h1>
+        <h1 class="border-bottom shadow p-3 text-dark">Bootstrap Layouts</h1>
         <ul class="nav nav-tabs">
             <li class="nav-item">
-                <a href="../dropdowns/" class="nav-link">Dropdowns</a>
+                <a href="../layout-size/" class="nav-link">Layout Size</a>
             </li>
             <li class="nav-item">
-                <a href="../collapses/" class="nav-link active">Collapses</a>
+                <a href="../layout-container/" class="nav-link active">Layout Container</a>
             </li>
             <li class="nav-item">
-                <a href="../modals/" class="nav-link">Modals</a>
+                <a href="../grid-system/" class="nav-link">Grid System</a>
             </li>
             <li class="nav-item">
-                <a href="../carousel/" class="nav-link">Carousel</a>
-            </li>
-            <li class="nav-item">
-                <a href="../spinners/" class="nav-link">Spinners</a>
+                <a href="../responsive-layouts/" class="nav-link">Responsive Layouts</a>
             </li>
         </ul>
-        <h3 class="m-3">Collapses</h3>
-
-        <p>
-            <a href="#item" data-toggle="collapse" class="btn btn-primary">Link Button</a>
-        </p>
-        <div class="collapse" id="item">
-            <div class="card card-body">
-                <h5 class="card-title">Collapse</h5>
-                <p>Some sample content</p>
-            </div>
-        </div>
+        <h3 class="m-3">Layout Container</h3>
+        
     </section>
-    
 
-    
+    <div class="container border alert-primary h-25 mb-4 pt-5 text-center">
+        <h1>Container</h1>
+    </div>
 
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/js/bootstrap.bundle.min.js"></script>
+    <div class="container-fluid alert-danger h-25 mb-4 pt-5 text-center">
+        <h1>Container-Fluid</h1>
+    </div>
+        
+    
 </body>
 </html>

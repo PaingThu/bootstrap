@@ -3,9 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bootstrap - JS Components</title>
+    <title>Bootstrap - Layouts</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/css/bootstrap.min.css">
-    
 </head>
 <body>
 
@@ -21,10 +20,10 @@
                         <a href="../../css-component/alert/" class="nav-link">CSS Components</a>
                     </li>
                     <li class="nav-item">
-                        <a href="../../js-component/dropdowns/" class="nav-link active">JS Components</a>
+                        <a href="../../js-component/dropdowns/" class="nav-link">JS Components</a>
                     </li>
                     <li class="nav-item">
-                        <a href="../../layout/layout-size/" class="nav-link">Layout</a>
+                        <a href="../../layout/" class="nav-link active">Layout</a>
                     </li>
                     <li class="nav-item">
                         <a href="../../utility-classes/" class="nav-link">Utility Classes</a>
@@ -43,41 +42,69 @@
             </div>
         </nav>
     </main>
+    
     <section class="container py-5">
-        <h1 class="border-bottom shadow p-3 text-dark">Javascript Components</h1>
+        <h1 class="border-bottom shadow p-3 text-dark">Bootstrap Layouts</h1>
         <ul class="nav nav-tabs">
             <li class="nav-item">
-                <a href="../dropdowns/" class="nav-link">Dropdowns</a>
+                <a href="../layout-size/" class="nav-link active">Layout Size</a>
             </li>
             <li class="nav-item">
-                <a href="../collapses/" class="nav-link active">Collapses</a>
+                <a href="../layout-container/" class="nav-link">Layout Container</a>
             </li>
             <li class="nav-item">
-                <a href="../modals/" class="nav-link">Modals</a>
+                <a href="../grid-system/" class="nav-link">Grid System</a>
             </li>
             <li class="nav-item">
-                <a href="../carousel/" class="nav-link">Carousel</a>
-            </li>
-            <li class="nav-item">
-                <a href="../spinners/" class="nav-link">Spinners</a>
+                <a href="../responsive-layouts/" class="nav-link">Responsive Layouts</a>
             </li>
         </ul>
-        <h3 class="m-3">Collapses</h3>
-
-        <p>
-            <a href="#item" data-toggle="collapse" class="btn btn-primary">Link Button</a>
-        </p>
-        <div class="collapse" id="item">
-            <div class="card card-body">
-                <h5 class="card-title">Collapse</h5>
-                <p>Some sample content</p>
-            </div>
-        </div>
+        <h3 class="m-3">Layout Sizes</h3>
+        <table class="table table-striped">
+            <tr class="alert-primary">
+                <th>Breakpoint</th>
+                <th>Class infix</th>
+                <th>Dimensions</th>
+                <th></th>
+            </tr>
+            <tr>
+                <td>X-Small</td>
+                <td>None</td>
+                <td>&lt;576px</td>
+                <td>Phones</td>
+            </tr>
+            <tr>
+                <td>Small</td>
+                <td>sm</td>
+                <td>&ge;576px</td>
+                <td>Landscape Mode(Phone), Small Tablets</td>
+            </tr>
+            <tr>
+                <td>Medium</td>
+                <td>md</td>
+                <td>&ge;768px</td>
+                <td>Tablets, Small Laptops</td>
+            </tr>
+            <tr>
+                <td>Large</td>
+                <td>lg</td>
+                <td>&ge;992px</td>
+                <td>Landscape Mode(Tablet),Large Screen Tablets, Laptops</td>
+            </tr>
+            <tr>
+                <td>Extra Large</td>
+                <td>xl</td>
+                <td>&ge;1200px</td>
+                <td>High Resolution Laptops & Desktops</td>
+            </tr>
+            <tr>
+                <td>Extra extra large</td>
+                <td>xxl</td>
+                <td>&ge;1400px</td>
+                <td>8k, 4k, HD Screen, Smart TV</td>
+            </tr>
+        </table>
     </section>
-    
 
-    
-
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
