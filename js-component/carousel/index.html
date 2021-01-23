@@ -9,94 +9,131 @@
 </head>
 <body>
 
-    <ul class="nav nav-tabs">
-        <li class="nav-item">
-            <a href="../../" class="nav-link">Home</a>
-        </li>
-        <li class="nav-item">
-            <a href="../dropdowns/" class="nav-link">Dropdowns</a>
-        </li>
-        <li class="nav-item">
-            <a href="../collapses/" class="nav-link">Collapses</a>
-        </li>
-        <li class="nav-item">
-            <a href="../modals/" class="nav-link">Modals</a>
-        </li>
-        <li class="nav-item">
-            <a href="../carousel/" class="nav-link active">Carousel</a>
-        </li>
-        <li class="nav-item">
-            <a href="../spinners/" class="nav-link">Spinners</a>
-        </li>
-    </ul>
+    <main class="bg-dark">
+        <nav class="navbar navbar-expand-sm sticky-top navbar-dark bg-dark">
+            <div class="container-fluid">
+                <a href="https://eimaung.com/bootstrap/" class="navbar-brand">ဆရာအိမောင်၏ Bootstrap လို-တို-ရှင်း စာအုပ်အားလေ့လာခြင်း</a>
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a href="../../" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="../../css-component/alert/" class="nav-link">CSS Components</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="../../js-component/dropdowns/" class="nav-link active">JS Components</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="../../layout/" class="nav-link">Layout</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="../../utility-classes/" class="nav-link">Utility Classes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="../../icons/" class="nav-link">Icons</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="../../admin-dashboard/" class="nav-link">Admin Dashboard</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="../../js-component/dropdowns/" class="nav-link">Thank you!</a>
+                    </li>
 
-    <h1>Carousel</h1>
-
-    <h6>Sample 1</h6>
-    <div class="carousel slide mb-3" data-ride="carousel">
-
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <div class="bg-primary" style="height: 200px;"></div>
+                </ul>
             </div>
-            <div class="carousel-item">
-                <div class="bg-success" style="height: 200px;"></div>
+        </nav>
+    </main>
+    <section class="container py-5">
+        <h1 class="border-bottom shadow p-3 text-dark">Javascript Components</h1>
+        <ul class="nav nav-tabs">
+            <li class="nav-item">
+                <a href="../dropdowns/" class="nav-link">Dropdowns</a>
+            </li>
+            <li class="nav-item">
+                <a href="../collapses/" class="nav-link">Collapses</a>
+            </li>
+            <li class="nav-item">
+                <a href="../modals/" class="nav-link">Modals</a>
+            </li>
+            <li class="nav-item">
+                <a href="../carousel/" class="nav-link active">Carousel</a>
+            </li>
+            <li class="nav-item">
+                <a href="../spinners/" class="nav-link">Spinners</a>
+            </li>
+        </ul>
+    
+        <h3 class="m-3">Carousel</h3>
+    
+        <h6>Sample 1</h6>
+        <div class="carousel slide mb-3" data-ride="carousel">
+    
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="bg-primary" style="height: 200px;"></div>
+                </div>
+                <div class="carousel-item">
+                    <div class="bg-success" style="height: 200px;"></div>
+                </div>
+                <div class="carousel-item">
+                    <div class="bg-warning" style="height: 200px;"></div>
+                </div>
             </div>
-            <div class="carousel-item">
-                <div class="bg-warning" style="height: 200px;"></div>
-            </div>
+    
         </div>
-
-    </div>
-
-    <h6>Sample 2</h6>
-    <div class="carousel slide mb-3" data-ride="carousel" id="second-slide">
-
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <div class="bg-primary" style="height: 200px;"></div>
+    
+        <h6>Sample 2</h6>
+        <div class="carousel slide mb-3" data-ride="carousel" id="second-slide">
+    
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="bg-primary" style="height: 200px;"></div>
+                </div>
+                <div class="carousel-item">
+                    <div class="bg-success" style="height: 200px;"></div>
+                </div>
+                <div class="carousel-item">
+                    <div class="bg-warning" style="height: 200px;"></div>
+                </div>
             </div>
-            <div class="carousel-item">
-                <div class="bg-success" style="height: 200px;"></div>
-            </div>
-            <div class="carousel-item">
-                <div class="bg-warning" style="height: 200px;"></div>
-            </div>
+    
+            <a href="#second-slide" class="carousel-control-prev" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a href="#second-slide" class="carousel-control-next" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </a>
+    
         </div>
-
-        <a href="#second-slide" class="carousel-control-prev" data-slide="prev">
-            <span class="carousel-control-prev-icon"></span>
-        </a>
-        <a href="#second-slide" class="carousel-control-next" data-slide="next">
-            <span class="carousel-control-next-icon"></span>
-        </a>
-
-    </div>
-
-    <h6>Sample 3</h6>
-    <div class="carousel slide mb-3" data-ride="carousel" id="third">
-        <ol class="carousel-indicators">
-            <li class="active" data-target="#third" data-slide-to="0"></li>
-            <li data-target="#third" data-slide-to="1"></li>
-            <li data-target="#third" data-slide-to="2"></li>
-        </ol>
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <div class="bg-primary" style="height: 200px;"></div>
+    
+        <h6>Sample 3</h6>
+        <div class="carousel slide mb-3" data-ride="carousel" id="third">
+            <ol class="carousel-indicators">
+                <li class="active" data-target="#third" data-slide-to="0"></li>
+                <li data-target="#third" data-slide-to="1"></li>
+                <li data-target="#third" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="bg-primary" style="height: 200px;"></div>
+                </div>
+                <div class="carousel-item">
+                    <div class="bg-success" style="height: 200px;"></div>
+                </div>
+                <div class="carousel-item">
+                    <div class="bg-warning" style="height: 200px;"></div>
+                </div>
             </div>
-            <div class="carousel-item">
-                <div class="bg-success" style="height: 200px;"></div>
-            </div>
-            <div class="carousel-item">
-                <div class="bg-warning" style="height: 200px;"></div>
-            </div>
+            <a href="#third" class="carousel-control-prev" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a href="#third" class="carousel-control-next" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </a>
         </div>
-        <a href="#third" class="carousel-control-prev" data-slide="prev">
-            <span class="carousel-control-prev-icon"></span>
-        </a>
-        <a href="#third" class="carousel-control-next" data-slide="next">
-            <span class="carousel-control-next-icon"></span>
-        </a>
-    </div>
+    
+    </section>
+
+    
 </body>
 </html>
